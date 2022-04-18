@@ -9,6 +9,8 @@
     background-color: antiquewhite;
 }
 .title {
+    display: flex;
+    justify-content: space-between;
     background-color: antiquewhite;
     width: 100%;
     padding: 7px 20px;
@@ -17,6 +19,10 @@
     font-family: 'Catamaran', sans-serif;
     font-size: 20px;
     font-weight: bold;
+}
+img {
+    padding-top: 15px;
+    display: none;
 }
 body {
     font-family: 'Poppins', sans-serif;
@@ -85,7 +91,7 @@ button {
     border: 1px solid rgb(223, 186, 142);
     border-radius: 5px;
     padding: 15px;
-    margin-left: 286px;
+    margin-left: 186px;
     margin-top: 20px;
 }
 #btn:hover {
@@ -106,4 +112,38 @@ button {
 .white:hover {
     -webkit-transition: all 0.5s ease;
     background-color: rgb(115, 189, 143);
+}
+
+@media screen and (max-width :1550px) {
+    img {
+        display: block;
+    }
+    a {
+        margin: 0px 100px;
+    }
+    .title {
+        justify-content: center;
+    }
+    .container {
+        position: absolute;
+        padding-left: 20px;
+        width: 100%;
+        top: 950px;
+    }
+    .rules {
+        align-self: center;
+    }
+    h2 {
+        align-self: center;
+    }
+    .container div {
+        text-align: center;
+    }
+    .checkBoard {
+        margin-left: 0;
+    }
+    .background {
+        display: flex;
+        justify-content: center;
+    }
 }
