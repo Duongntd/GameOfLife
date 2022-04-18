@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Life</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Catamaran&family=Poppins:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="title">
+			<a href=""><h1>Game Of Life</h1></a>
+		</div>
+	</header>
+	<div class="background">
+	  <div class="container">
+		<h1 class="rules">Rules</h1>
+		<h2>For a space that is populated:</h2>
+		<div class="populated">
+		 <p>Each cell with one or no neighbors dies, as if by solitude.</p>
+		 <p>Each cell with four or more neighbors dies, as if by overpopulation.</p>
+		 <p>Each cell with two or three neighbors survives.</p>
+		</div>
+		<h2>For a space that is empty or unpopulated:</h2>
+		<div class="unpopulated">
+		 <p>Each cell with three neighbors becomes populated.</p>
+		</div>
+	  </div>
+	  <div class="checkBoard">
+		<h1 class="random"></h1>
+	  </div>
+	  <button id="btn">Next Move</button>
+      <script src="script.js"></script>
+	</div>
+</body>
+</html>

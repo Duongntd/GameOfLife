@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.background {
+    height: 845px;
+    background-color: antiquewhite;
+}
+.title {
+    background-color: antiquewhite;
+    width: 100%;
+    padding: 7px 20px;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    border-left: 2px solid black;
+    padding-left: 150px;
+    background-color: white;
+    float: right;
+    width: 60%;
+    height: 845px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.rules {
+    display: flex;
+    align-self: start;
+    font-size: 150px;
+}
+h2 {
+    display: flex;
+    align-self: flex-start;
+    padding: 10px 30px;
+    font-size: 35px;
+}
+.populated {
+    font-weight: bold;
+    padding: 10px 40px;
+    width: 100%;
+}
+p {
+    font-size: larger;
+    font-weight: bold;
+    padding: 7px;
+}
+.unpopulated {
+    padding: 10px 40px;
+    width: 100%;
+}
+.checkBoard {
+    float: left;
+    border: solid 1px black;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 502px;
+    height: 502px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.checkBoard div {
+    border: solid 1px rgb(0, 0, 0);
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+button {
+    font-family:'Inter', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    background-color: white;
+    border: 1px solid rgb(223, 186, 142);
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 286px;
+    margin-top: 20px;
+}
+#btn:hover {
+    color: white;
+    background-color: rgb(243, 159, 50);
+    -webkit-transition: 0.3s ease;
+}
+.green {
+    background-color: rgb(115, 189, 143);
+}
+.green:hover {
+    -webkit-transition: all 0.5s ease;
+    background-color: rgb(189, 115, 115);
+}
+.white {
+    background-color: white;
+}
+.white:hover {
+    -webkit-transition: all 0.5s ease;
+    background-color: rgb(115, 189, 143);
+}
