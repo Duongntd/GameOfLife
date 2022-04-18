@@ -593,10 +593,5 @@ function changeState(num) {
 
 document.getElementById('btn').addEventListener('click', nextMove);
 
-document.getElementById('img').addEventListener('click', showRules);
-
-function showRules() {
-  document.querySelector('.containter').style.display = true;
-}
 
 
